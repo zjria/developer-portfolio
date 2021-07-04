@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+    margin-top: 100px;
     font-size: 40px;
 }
 
@@ -16,7 +17,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     padding-left: 2%;
     margin-bottom: 100px;
@@ -46,4 +47,34 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 176px;
+}
+
+.exparience-items {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 0px 50px 30px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.exparience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#slide-area-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#slide-area-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
